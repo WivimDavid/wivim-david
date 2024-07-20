@@ -351,6 +351,10 @@ main {
 .avatar-box {
   background: var(eerie-black-2);
   border-radius: 20px;
+
+  & img {
+    border-radius: 60px;
+  }
 }
 
 .info-content .name {
