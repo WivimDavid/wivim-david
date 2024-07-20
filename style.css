@@ -354,6 +354,7 @@ main {
 
   & img {
     border-radius: 60px;
+    width: 80px;
   }
 }
 
@@ -1262,7 +1263,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .tecnologies-item { min-width: calc(33.33% - 10px); }
 
-
+  /* 
+  * SIDEBAR
+  */
+  .avatar-box img { width: 80px; }
 
   /**
    * #PORTFOLIO, BLOG 
